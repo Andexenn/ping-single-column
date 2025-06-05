@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+}
+
+.container{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.logo{
+    margin-bottom: 40px;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 200;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 20px;
+}
+
+.title strong{
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+}
+
+.sub-title{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.form{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.input{
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 59%);
+    height: 30px;
+    width: 350px;
+    padding: 20px;
+}
+
+.btn{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 45px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 0 10px hsla(223, 87%, 63%, 0.6);
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.dashboard{
+    width: 75%;
+    margin-bottom:60px;
+}
+
+.list-icon{
+
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid hsla(0, 0%, 59%, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: hsl(223, 87%, 63%);
+}
+
+.icon:hover{
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+}
+
+
+.copyright{
+    color: hsl(0, 0%, 59%);
+    margin-top: 15px;
+}
+
