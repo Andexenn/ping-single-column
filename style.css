@@ -47,10 +47,15 @@ body{
 }
 
 .form{
-    display: flex;
-    gap: 15px;
-    align-items: center;
     margin-bottom: 50px;
+}
+
+.input-form{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+
 }
 
 .input{
@@ -71,10 +76,20 @@ body{
     font-weight: 500;
     cursor: pointer;
     box-shadow: 0 0 10px hsla(223, 87%, 63%, 0.6);
+    border: none;
+    font-size: 1.6rem;
 }
 
 .btn:hover{
     opacity: 0.8;
+}
+
+.invalid{
+    font-style: italic;
+    color: hsl(354, 100%, 66%);
+    width: 100%;
+    display: none;
+    margin-left: 18px;
 }
 
 .dashboard{
